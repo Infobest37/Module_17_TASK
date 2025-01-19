@@ -1,6 +1,8 @@
 from app.backend.db import Base
 from sqlalchemy import Column, ForeignKey, Integer, String, Boolean
 from sqlalchemy.orm import relationship
+
+
 from app.models.products import Product
 from app.models import *
 
